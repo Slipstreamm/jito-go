@@ -20,7 +20,7 @@ var (
 	XRAY           Platform = "https://xray.helius.xyz/tx/"
 )
 
-const tipStreamURL = "ws://bundles.jito.wtf/api/v1/bundles/tip_stream"
+const tipStreamURL = "https://bundles.jito.wtf/api/v1/bundles/tip_stream"
 
 type TipStreamInfo struct {
 	Time                        time.Time `json:"time"`
